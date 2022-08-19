@@ -1,0 +1,16 @@
+.mmmm{
+    text-align: center;
+    padding: 17px;
+}
+main{
+    padding: 20px 80px;
+    text-align: center;
+}
+.home h1{
+    margin: 10px 0;
+}
+.all_games{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-gap: 20px;
+}
